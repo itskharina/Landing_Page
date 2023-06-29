@@ -80,3 +80,35 @@ button {
     margin-top: 15px;
     font-weight: 700;
 }
+
+.title2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    color: #3882f6;
+    border-radius: 20px;
+    border-width: thick;
+}
+
+.text {
+    margin-top: 10px;
+}
