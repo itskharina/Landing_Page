@@ -2,6 +2,8 @@
     outline: thin dashed red;
 } */ 
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 html, body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -116,7 +118,7 @@ img {
 .container3 {
     background-color: #e5e7eb;
     display: flex;
-    font-weight: thin;
+    font-weight: 100;
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
@@ -136,4 +138,27 @@ span.noitalic {
 p {
     max-width: 820px;
     margin: 10px 60px;
+}
+
+.container4 {
+    display: flex;
+    margin: 150px auto;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 40px;
+    border-radius: 5px;
+    color: white;
+    justify-content: space-around;
+    height: 80px;
+    width: 1000px;
+}
+
+button {
+    border: 1px solid white;
+    width: 150px;
+}
+
+.main2 {
+    font-weight: bold;
+    font-size: 20px;
 }
